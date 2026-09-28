@@ -1,103 +1,14 @@
-body{
-    margin: 0;
-    padding: 0;
-    font-family: 'Roboto', sans-serif;
-}
-
-.caixaFlex{
+body {
+    font-family: sans-serif;
     display: flex;
-    align-items: center;
     justify-content: center;
-}
-
-#menu{
-    width: 100%;
-    display: flex;
     align-items: center;
-    justify-content: space-between;
-}
-
-#menuTexto{
-    margin-left: 20px;
-}
-
-#menuLinks{
-    margin-right: 20px;
+    height: 100vh;
+    margin: 0;
+  }
+  .calc {
     display: flex;
-    gap:20px
-}
-
-.menuLinksTexto{
-    text-decoration: none;
-    color: #000000;
-}
-
-#caixa{
-    width: 100%;
-    height: 300px;
-    background-color: #FDF5E6;
     flex-direction: column;
-}
-
-#btnCaixa{
-    border: none;
-    background-color: #3d3dcd;
-    color: #ffffff;
-    border-radius: 8px;
-    padding: 12px 30px;
-}
-
-#caixinhas{
-    margin-bottom: 50px;
-    padding: 30px 0;
-    width: 100%;
-    gap:20px
-}
-
-.barra{
-    width: 15%;
-    height: 2px;
-    background-color: #3d3dcd;
-}
-.caixinha{
-    border: 1px solid #C0C0C0;
-    border-radius: 12px;
-    padding: 5px 0;
-    flex-direction: column;
-}
-
-#rodape{
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    height: 50px;
-    background-color: #FDF5E6;
-}
-
-.imgCaixinha{
-    margin-top: 15px;
-}
-/*mobile*/
-@media screen and (max-width: 768px){
-    #btnCaixa{
-        display: none;
-    }
-    #caixinhas{
-        flex-direction: column;
-    }
-    .caixinha{
-        width: 60%;
-    }
-}
-/*desktop*/
-@media screen and (min-width: 769px){
-    #btnCaixa{
-        display: block;
-    }
-    #caixinhas{
-        flex-direction: line;
-    }
-    .caixinha{
-        width: 30%;
-    }
-}
+    gap: 10px;
+    width: 200px;
+  }
